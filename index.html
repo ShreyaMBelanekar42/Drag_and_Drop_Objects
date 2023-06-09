@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>FunnelHQ - Assignment</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- success message -->
+      <p id="message"></p>
+      <div class="grid-container">
+        <!-- container 1 -->
+        <div class="container left-box">
+          <p class="draggable" draggable="true">Hello! I am a text.</p>
+          <img
+            src="./assests/img1.jpeg"
+            alt="img"
+            class="draggable"
+            draggable="true"
+          />
+          <div class="flex-icons">
+            <img
+              src="./assests/user.png"
+              alt="icon"
+              class="icon draggable"
+              draggable="true"
+            />
+            <img
+              src="./assests/computer.png"
+              alt="icon"
+              class="icon draggable"
+              draggable="true"
+            />
+          </div>
+          <h2 class="draggable" draggable="true">
+            Hello! I am a h2 bold text.
+          </h2>
+          <img
+            src="./assests/img2.jpeg"
+            alt="img"
+            class="draggable"
+            draggable="true"
+          />
+        </div>
+
+        <!-- container 2 -->
+        <div class="container right-box"></div>
+      </div>
+
+      <!-- reset button -->
+      <div>
+        <button onclick="reset()" class="reset-button">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>

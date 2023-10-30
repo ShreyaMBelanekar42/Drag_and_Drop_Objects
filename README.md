@@ -1,4 +1,4 @@
-# FunnelHQ_Internship_Assignment
+# Drag_and_Drop_Objects
 There is drag and drop functionality where there are two containers and we can drag items from one container to another. To restore default functionality, press the Reset button. Every time a user drags and drops items, a success message appears.
 
 ## How to run
